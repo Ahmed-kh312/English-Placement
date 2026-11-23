@@ -44,8 +44,8 @@
     $('back').onclick = viewRole;
     $app.innerHTML = `<div class="panel"><h2>Before you start <span class="ar">· قبل أن تبدأ</span></h2>
       <p class="lead">5 spoken questions, about 5 minutes. Allow microphone access and use a quiet place.</p>
-      <label for="sn">Full name <span class="ar">· الاسم الكامل</span></label><input id="sn" autocomplete="name" placeholder="e.g. Farah Mohamed">
-      <label for="se">Email <span class="ar">· البريد الإلكتروني</span></label><input id="se" type="email" autocomplete="email" placeholder="e.g. farah.mohamed@example.com">
+      <label for="sn">Full name <span class="ar">· الاسم الكامل</span></label><input id="sn" autocomplete="name" placeholder="e.g. Farha Muhammad">
+      <label for="se">Email <span class="ar">· البريد الإلكتروني</span></label><input id="se" type="email" autocomplete="email" placeholder="e.g. Farha Muhammad@example.com">
       <div class="err" id="er" role="alert"></div>
       <div class="row"><button class="btn" id="go">Start exam</button></div></div>`;
     $('go').onclick = () => {
